@@ -15,7 +15,6 @@
 
 body {
 	width: 100%;
-	height: 100vh;
 	overflow: hidden;
 	font-family: 'Kumbh Sans', sans-serif;
 	font-size: 18px;
@@ -93,17 +92,14 @@ body {
 
 @media (min-width: 375px) {
 	body {
-		background-position: 125% 400%, -30% -200%;		
+		background-position: 125% 200%, -25% -100%;		
 	}
 }
 
 @media (min-width: 1440px) {
 
 	body {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		background-position: -50% -800%, 175% 700%;
+		background-position: -75% 150%, 150% -100%;
 	}
 	
 }
